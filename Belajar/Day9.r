@@ -25,4 +25,13 @@
 A <- matrix(c(2, 1,
               1, 2), nrow=2, byrow=TRUE)
 
-eigen(A)
+print(eigen(A))
+
+#outputnya mengartikan bahwa:
+# terdapat 2 eigenvalue yakni 3 dan 1
+# dan 2 eigenvector: masing - masing memiliki arah yang tetap jika A diterapkan
+
+M <- matrix(c(4, 2,
+              1, 3), nrow=2, byrow=TRUE)
+
+print(eigen(M))
